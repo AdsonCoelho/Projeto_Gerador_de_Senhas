@@ -2,21 +2,16 @@
 *{
 	margin: 0;
 	padding: 0;
-  background-color: greenyellow;}
+}
+  	
 
 .menu{
-	width: 800px;
-	margin: auto;
 	text-align: center;
-  }
-
-
-.menu a{
 	color: rgb(0, 0, 0);
 	padding-right: 10px;
  	font-size: 22px;
 	margin:0 8px;
 	font-family: cursive;
-  position:relative; 
+ 	position:relative; 
 }
 

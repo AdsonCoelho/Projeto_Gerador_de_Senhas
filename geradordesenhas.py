@@ -8,7 +8,7 @@
     <body>
         <py-script>
 
-            chave = input("Digite a base da sua senha: ")
+            chave = input("Exbindo sua senha: ")
 
             senha = ""
             for letra in chave:
@@ -20,6 +20,7 @@
                 elif letra in "Rr": senha = senha + "#"  
                 elif letra in "Ss": senha = senha + "%"           
                 elif letra in "Mm": senha = senha + "$"
+                
                 else: senha = senha + letra
                 print(senha)
 
