@@ -2,8 +2,10 @@
     <head>
         <title>Running a Python script</title>
         <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
-        <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
-        </head>
+        <script defer src="https://pyscript.net/alpha/pyscript.js"> </script>
+   		<link a href="style.css" type="text/css" rel="stylesheet" />
+    </head>
+    
     <body>
         <py-script>
          
@@ -14,8 +16,8 @@
             num = '0123456789'
             sybs = '[]{}()*#;/,-_%'
             
-            qnt = input('Digite qual tamanho da senha: ')
-            qntInt = int(qnt)
+            
+            qntInt = int(input('Tamanho digitado: '))
             print(qntInt)
             print(" ")
             length = qntInt

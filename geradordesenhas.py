@@ -3,7 +3,8 @@
         <title>Running a Python script</title>
         <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
         <script defer src="https://pyscript.net/alpha/pyscript.js"> </script>
-        </head>
+   		<link a href="style.css" type="text/css" rel="stylesheet" />
+    </head>
     
     <body>
         <py-script>
